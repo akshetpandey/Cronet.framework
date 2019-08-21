@@ -1,6 +1,0 @@
-framework module Cronet {
-  umbrella header "Cronet.h"
-
-  export *
-  module * { export * }
-}

@@ -1,6 +1,6 @@
 # Cronet
 
-[![CI Status](https://img.shields.io/travis/akshetpandey/Cronet.framework.svg?style=flat)](https://travis-ci.org/akshetpandey/Cronet)
+[![Build Status](https://app.bitrise.io/app/d53aeedb8c8301c3/status.svg?token=Ru7JcjzoqI86H9vtHgTweQ&branch=master)](https://app.bitrise.io/app/d53aeedb8c8301c3)
 [![Version](https://img.shields.io/cocoapods/v/Cronet.svg?style=flat)](https://cocoapods.org/pods/Cronet)
 [![License](https://img.shields.io/cocoapods/l/Cronet.svg?style=flat)](https://cocoapods.org/pods/Cronet)
 [![Platform](https://img.shields.io/cocoapods/p/Cronet.svg?style=flat)](https://cocoapods.org/pods/Cronet)
@@ -22,7 +22,7 @@ pod 'Cronet'
 
 ## Author
 
-akshetpandey, akshet@pocketgems.com
+akshetpandey, github@akshetpandey.com
 
 ## License
 

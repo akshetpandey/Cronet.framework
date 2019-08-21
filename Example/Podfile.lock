@@ -1,5 +1,5 @@
 PODS:
-  - Cronet (78.0.3888.patch.0.pre)
+  - Cronet (76.0.3809.123)
 
 DEPENDENCIES:
   - Cronet (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Cronet: d1f2bff35f7cfd548c327dcf76732ddae4e78e69
+  Cronet: cdfe131a07fd329c4b109fb491e791c734b573c3
 
-PODFILE CHECKSUM: 5ebe8d0631607484701ced52ae5eab9629b5ce56
+PODFILE CHECKSUM: e3edf9b0e6ddd1d646debec577fa69baacfacf65
 
 COCOAPODS: 1.7.5

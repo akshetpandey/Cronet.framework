@@ -1,10 +1,6 @@
-#
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = 'Cronet'
-  s.version          = '78.0.3888.patch.0.pre'
+  s.version          = 'MASTER_BRANCH'
   s.summary          = 'Cronet is the networking stack of Chromium put into a library for use on mobile'
 
   s.description      = <<-DESC
@@ -16,12 +12,11 @@ DESC
 
   s.homepage         = 'https://chromium.googlesource.com/chromium/src/+/master/components/cronet'
   s.license          = { :type => 'BSD', :file => 'LICENSE' }
-  s.authors           = { 'akshetpandey' => 'akshet@pocketgems.com', 'Chromium Developers' => 'net-dev@chromium.org' }
-  s.source           = { :git => 'https://github.com/akshetpandey/Cronet.framework.git', :tag => s.version.to_s }
-  s.platform          = :ios
-
-  s.ios.deployment_target = '9.0'
+  s.authors          = { 'akshetpandey' => 'akshet@pocketgems.com', 'Chromium Developers' => 'net-dev@chromium.org' }
+  s.source           = { :git => 'https://github.com/akshetpandey/Cronet.framework.git', :tag => "v#{s.version.to_s}" }
+  s.platform         = :ios, '9.0'
+  s.requires_arc     = true
 
   s.vendored_frameworks = 'Frameworks/Cronet.framework'
-  s.preserve_paths = 'Frameworks/*.framework'
+  s.frameworks = 'SystemConfiguration'
 end

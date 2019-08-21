@@ -18,7 +18,7 @@
 // modifying that.
 - (NSString*)currentNetLogFileName {
     return [NSString
-            stringWithFormat:@"cronet-consumer-net-log%lu.json", _counter];
+            stringWithFormat:@"cronet-consumer-net-log%lu.json", (unsigned long)_counter];
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions

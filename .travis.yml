@@ -2,13 +2,17 @@
 # * https://www.objc.io/issues/6-build-tools/travis-ci/
 # * https://github.com/supermarin/xcpretty#usage
 
-osx_image: xcode10
+os: osx
+osx_image: xcode10.3
 language: objective-c
 cache: cocoapods
 podfile: Example/Podfile
 before_install:
+- brew install git-lfs
 - gem install cocoapods # Since Travis is not always on latest version
 - pod install --project-directory=Example
+before_script:
+- git lfs pull
 script:
-- set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/Cronet.xcworkspace -scheme Cronet-Example -sdk iphonesimulator9.3 ONLY_ACTIVE_ARCH=NO | xcpretty
+- set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/Cronet.xcworkspace -scheme Cronet-Example -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty
 - pod lib lint

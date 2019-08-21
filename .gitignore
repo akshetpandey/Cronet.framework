@@ -35,3 +35,10 @@ Carthage/Build
 # `pod install` in .travis.yml
 #
 Pods/
+
+# Temorary build artifacts go here
+tmp
+current_chrome_versions.json
+Cronet-Static.framework.tar.bz2
+Cronet-dynamic.framework.tar.bz2
+Cronet.framework.dSYM.tar.bz2
