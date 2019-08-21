@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'Cronet_Example' do
+  pod 'Cronet', :path => '../'
+
+  target 'Cronet_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
