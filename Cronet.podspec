@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Cronet'
-  s.version          = 'MASTER_BRANCH'
+  s.version          = '80.0.3987.78-beta'
   s.summary          = 'Cronet is the networking stack of Chromium put into a library for use on mobile'
 
   s.description      = <<-DESC
