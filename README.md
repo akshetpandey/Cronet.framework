@@ -1,5 +1,7 @@
 # Cronet: Chromium's networking stack for your iOS applications
 
+**Depreacted: This package was relevant when iOS didn't support QUIC/HTTP3. iOS15 onwards has native support.**
+
 [![Build Status](https://app.bitrise.io/app/d53aeedb8c8301c3/status.svg?token=Ru7JcjzoqI86H9vtHgTweQ&branch=master)](https://app.bitrise.io/app/d53aeedb8c8301c3)
 [![Version](https://img.shields.io/cocoapods/v/Cronet.svg?style=flat)](https://cocoapods.org/pods/Cronet)
 [![License](https://img.shields.io/cocoapods/l/Cronet.svg?style=flat)](https://cocoapods.org/pods/Cronet)
